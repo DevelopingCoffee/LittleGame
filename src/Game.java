@@ -15,7 +15,7 @@ import javax.swing.JLabel;
 import com.gameproject.src.main.classes.EntityA;
 import com.gameproject.src.main.classes.EntityB;
 
-
+//MASTER EDIT
 
 public class Game extends Canvas implements Runnable {
 	
@@ -83,7 +83,7 @@ public class Game extends Canvas implements Runnable {
 		credits=new Credits();
 		p= new Player (200,200,tex);//this: reference auf Game und die getSpriteSheetMethode, 200 und 200 Koordinante 
 		
-		c=new Controller(this);/////gGEÄNDERT
+		c=new Controller(this);/////gGEï¿½NDERT
 //		physics = new Physics(this); 
 		eb=c.GetListB();
 		addKeyListener(new KeyInput(this));
@@ -187,7 +187,7 @@ public class Game extends Canvas implements Runnable {
 		/////////////////////////////////
 		//Here we can draw stuff
 		
-		g.drawImage(image, 0, 0, getWidth(), getHeight(),this); //Das kleiner Grundimage wird mit getWidth und Height auf die Größe des Fensters gebracht
+		g.drawImage(image, 0, 0, getWidth(), getHeight(),this); //Das kleiner Grundimage wird mit getWidth und Height auf die Grï¿½ï¿½e des Fensters gebracht
 
 		g.drawImage(background, 0,0,null);
 		if(state==State.GAME) {
